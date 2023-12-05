@@ -1,0 +1,137 @@
+.main {
+  margin: 2rem 1rem 2.5rem 1rem;
+}
+
+.main__title {
+  font-family: avenir-bold;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  margin: 0 0 1rem 0;
+}
+
+.main__subtitle-container {
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+.main__subtitle-container--author {
+  font-family: avenir;
+  font-size: 0.875rem;
+  line-height: 1.375rem;
+  padding-right: 0.5rem;
+  margin: 0;
+}
+
+.main__subtitle-container--date {
+  font-family: avenir;
+  font-size: 0.875rem;
+  line-height: 1.375rem;
+  color: #afafaf;
+  margin: 0;
+}
+
+.main__views-likes-container {
+  display: flex;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #e1e1e1;
+}
+
+.main__views-container {
+  display: flex;
+  margin-right: 1.5rem;
+}
+
+.main__views-container--icon {
+  padding-right: 0.5rem;
+}
+
+.main__views-container--number {
+  font-family: avenir;
+  font-size: 0.875rem;
+  line-height: 1.375rem;
+  margin: 0;
+}
+
+.main__likes-container {
+  display: flex;
+}
+
+.main__likes-container--icon {
+  padding-right: 0.5rem;
+}
+
+.main__likes-container--number {
+  font-family: avenir;
+  font-size: 0.875rem;
+  line-height: 1.375rem;
+  margin: 0;
+}
+
+.main__description-container {
+  margin-top: 1.5rem;
+}
+
+.main__description-container--text {
+  font-family: avenir;
+  font-size: 0.8125rem;
+  line-height: 1.125rem;
+  margin: 0;
+}
+
+@media only screen and (min-width: 768px) {
+  .main {
+    margin: 3rem 1.5rem 4rem 1.5rem;
+  }
+  .main__title {
+    font-family: avenir-bold;
+    font-size: 2.25rem;
+    line-height: 2.75rem;
+    margin-bottom: 1.5rem;
+  }
+  .main__subtitle-container--author {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+  .main__views-likes-container {
+    border: none;
+  }
+  .main__views-container--number {
+    align-self: center;
+  }
+  .main__likes-container--number {
+    align-self: center;
+  }
+  .main__subtitle-views-likes-container {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.063rem solid #e1e1e1;
+  }
+  .main__description-container {
+    margin-top: 2.5rem;
+  }
+  .main__description-container--text {
+    word-wrap: break-word;
+    width: 68%;
+  }
+}
+
+@media only screen and (min-width: 1279px) {
+  .main {
+    margin: 3rem 0 4rem 11.25rem;
+  }
+  .main__main-container {
+    width: 44.5rem;
+  }
+  .main__views-likes-container {
+    border: none;
+    padding-right: 2rem;
+  }
+}
+@media only screen and (min-width: 1279px) {
+  .all-components__main {
+    display: flex;
+  }
+  .all-components__second {
+    border-left: 0.063rem solid #e1e1e1;
+  }
+}

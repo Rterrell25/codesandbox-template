@@ -1,6 +1,6 @@
 import "../styles/Comments.scss";
 
-const Comments = ({ comments }) => {
+const Comments = ({ comments = [] }) => {
   const Comments = comments.map((object, index) => {
     return (
       <div key={index} className="comment__default">
